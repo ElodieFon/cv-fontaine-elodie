@@ -70,13 +70,6 @@ main header .des .photo-profil img {
   -moz-user-select: none;
   user-select: none;
 }
-main header .right-info a {
-  text-decoration: none;
-}
-main header .right-info a:hover {
-  text-decoration: none;
-  color: #2c2c2c;
-}
 main header .right-info ul {
   display: flex;
   flex-direction: column;
@@ -84,11 +77,27 @@ main header .right-info ul {
 main header .right-info ul li {
   list-style: none;
   margin-bottom: 3vh;
+  display: flex;
+  align-items: center;
 }
 main header .right-info ul li img {
   max-width: 30px;
   width: 100%;
   margin-right: 1vw;
+}
+main header .right-info ul li a {
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: 1px solid #128edc;
+}
+main header .right-info ul li a:hover {
+  text-decoration: none;
+  color: #117edb;
+  box-shadow: 2px 2px 3px #dadada;
+  transform: scale(1.1);
 }
 @media screen and (min-width: 900px) {
   main header .des {
