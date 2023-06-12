@@ -221,10 +221,14 @@ main {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                flex-wrap: wrap;
                 margin-bottom: 5vh;
 
                 img {
-                    max-height: 50px;
+                   
+                    max-width: 100px;
+                    width: 100%;
+                    height: auto;
                     margin-right: 4em;
                 }
             }
@@ -296,10 +300,13 @@ main {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                flex-wrap: wrap;
                 margin-bottom: 5vh;
 
                 img {
-                    max-height: 50px;
+                    max-width: 100px;
+                    width: 100%;
+                    height: auto;
                     margin-right: 4em;
                 }
             }
@@ -361,10 +368,12 @@ main {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                flex-wrap: wrap;
                 margin-bottom: 5vh;
-
                 img {
-                    max-height: 50px;
+                    max-width: 100px;
+                    width: 100%;
+                    height: auto;
                     margin-right: 4em;
                 }
             }

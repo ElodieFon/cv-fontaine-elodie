@@ -184,10 +184,13 @@ main section.section-left .student .accordion-body .logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 5vh;
 }
 main section.section-left .student .accordion-body .logo img {
-  max-height: 50px;
+  max-width: 100px;
+  width: 100%;
+  height: auto;
   margin-right: 4em;
 }
 main section.section-left .student .accordion-body .date {
@@ -242,10 +245,13 @@ main section.section-left .work .accordion-body .logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 5vh;
 }
 main section.section-left .work .accordion-body .logo img {
-  max-height: 50px;
+  max-width: 100px;
+  width: 100%;
+  height: auto;
   margin-right: 4em;
 }
 main section.section-left .work .accordion-body .task > li {
@@ -292,10 +298,13 @@ main section.section-left .OldWork .accordion-body .logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 5vh;
 }
 main section.section-left .OldWork .accordion-body .logo img {
-  max-height: 50px;
+  max-width: 100px;
+  width: 100%;
+  height: auto;
   margin-right: 4em;
 }
 main section.section-left .OldWork .accordion-body .task > li {
