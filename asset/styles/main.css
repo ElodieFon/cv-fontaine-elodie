@@ -45,8 +45,7 @@ main header {
   flex-wrap: wrap;
   margin-top: 5vh;
   background-color: #ffffff;
-  border: 1px solid #128edc;
-  border-bottom: transparent;
+  border-bottom: 6px double rgba(18, 143, 220, 0.3490196078);
   border-radius: 1rem 1rem 0 0;
   padding: 2rem;
   margin-bottom: 2vh;
@@ -72,6 +71,15 @@ main header .des .photo-profil img {
 }
 main header .des p {
   margin-top: 2vh;
+  padding: 1rem;
+  border-left: 4px solid #128edc;
+  text-align: justify;
+}
+main header .des a {
+  text-decoration: none;
+}
+main header .right-info {
+  width: 100%;
 }
 main header .right-info ul {
   display: flex;
@@ -79,7 +87,7 @@ main header .right-info ul {
 }
 main header .right-info ul li {
   list-style: none;
-  margin: 1rem;
+  margin-bottom: 0.2rem;
   display: flex;
   align-items: center;
 }
@@ -88,21 +96,38 @@ main header .right-info ul li img {
   width: 100%;
 }
 main header .right-info ul li a {
+  text-decoration: none;
   transition: 0.3s;
-  border-radius: 1rem;
-  text-align: center;
-  font-weight: bold;
+  border-radius: 0.5rem;
+  text-align: left;
+  font-weight: bolder;
+  padding: 0.5rem;
+  width: 100%;
 }
 main header .right-info ul li a:hover {
-  color: #0078e0;
+  background-color: #128edc;
+  color: #ffffff;
 }
 @media screen and (min-width: 900px) {
   main header .des {
     flex: 1;
   }
+  main header .right-info {
+    flex: 1;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px #b1b1b1;
+  }
+}
+@media screen and (max-width: 900px) {
+  main header {
+    flex-direction: column-reverse;
+  }
 }
 main nav.navbar {
-  background-color: rgba(255, 255, 255, 0.5803921569);
+  background-color: #ffffff;
   border-top: 6px double #128edc;
   border-bottom: 6px double #128edc;
 }
