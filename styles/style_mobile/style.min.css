@@ -1,0 +1,163 @@
+@media only screen and (max-width: 600px) {
+  section {
+    width: 100%;
+  }
+  p {
+    font-size: 14px;
+  }
+  header .block-text h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  header .block-text p.subtitle {
+    font-size: 28px;
+  }
+  header .block-text p {
+    font-size: 14px;
+  }
+  nav {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    background-color: #104d8b;
+  }
+  nav * {
+    color: white;
+  }
+  nav .navbar-toggler {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+  nav ul.navbar-nav li a {
+    color: #ffffff;
+  }
+  nav ul.navbar-nav li a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  section#about .container-flex div.block-img {
+    max-width: 200px;
+    margin: auto;
+    border-radius: 100%;
+    margin-bottom: 5vh;
+  }
+  section#about .container-flex div.block-img img {
+    width: 100%;
+    border-radius: 100%;
+  }
+  section#skills {
+    padding: 0.5rem;
+  }
+  section#skills h2 {
+    text-align: center;
+  }
+  section#skills .container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 5vh;
+    justify-content: flex-start;
+  }
+  section#skills .container-flex .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    width: 100%;
+  }
+  section#skills .container-flex .item .block-text {
+    margin: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 0.5rem;
+    max-width: 300px;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+  }
+  section#skills .container-flex .item .block-text h3 {
+    text-align: center;
+  }
+  section#skills .container-flex .reverse {
+    flex-direction: column;
+  }
+  section#skills .container-flex .reverse .block-text {
+    margin-right: 1rem;
+  }
+  section#experiences h2 {
+    text-align: center;
+  }
+  section#experiences h3 {
+    text-align: center;
+    font-size: 24px;
+  }
+  section#experiences .time-line {
+    position: relative;
+    max-width: 100%;
+    margin-left: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  section#experiences .time-line::after {
+    display: none;
+  }
+  section#experiences .item {
+    position: initial;
+    width: 100%;
+  }
+  section#experiences .item h4 {
+    font-size: 20px;
+  }
+  section#experiences .item .content-right {
+    margin-left: 0px;
+  }
+  section#experiences .item .content-right::after {
+    display: none;
+  }
+  section#experiences .item .content-right::before {
+    display: none;
+  }
+  section#experiences .item .content-right .block-text {
+    width: 100%;
+    font-size: 14px;
+    position: initial;
+    line-height: 23px;
+  }
+  section#experiences .item .content-right .block-text .block-logo {
+    flex-direction: row;
+  }
+  section#experiences .item .content-right .block-text li {
+    padding-bottom: 5px;
+  }
+  section#experiences .item .content-right .date {
+    display: block;
+    color: #104d8b;
+    text-align: right;
+    font-weight: 600;
+  }
+  section#experiences .item .content-left {
+    display: none;
+  }
+  section#projects .container-flex {
+    justify-content: center;
+  }
+  section#contact .container-flex {
+    margin: 0.5rem;
+  }
+  section#contact .container-flex .lien {
+    justify-content: flex-start;
+    padding: 2rem;
+  }
+  section#contact .container-flex .lien .a_cta {
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: left;
+  }
+  section#contact .container-flex .lien .a_cta::before {
+    margin-right: 2rem;
+  }
+  section#contact .container-flex .lien hr {
+    display: none;
+  }
+}/*# sourceMappingURL=style.min.css.map */
