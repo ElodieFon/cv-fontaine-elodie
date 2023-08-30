@@ -8,7 +8,12 @@
       "default",
       {
         "ignore": [
+<<<<<<< HEAD
           "width: fit-content"
+=======
+          "user-select",
+          "max-width: fit-content"
+>>>>>>> 70741b372e577ab3ce61076b606d46fc18b63637
         ]
       }
     ]
